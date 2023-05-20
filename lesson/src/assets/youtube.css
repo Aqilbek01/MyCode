@@ -1,0 +1,13 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+#malum >a{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px !important;
+    margin: 5px !important;
+    text-decoration: none;
+    color:white;
+}
