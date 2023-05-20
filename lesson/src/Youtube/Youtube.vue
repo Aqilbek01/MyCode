@@ -91,13 +91,22 @@ import '../assets/youtube.css'
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div style="background-color: whitesmoke; width: 1423px;height: 800px;">
+                    <div style="background-color: whitesmoke; width: 1423px;height: 2000px;">
                     <h1>Yangiliklar</h1>
                     <p style="width: 500px;border:2px dotted black;">Toshkentda meteorologik kuzatuvlar 1867 yilning dekabridan boshlab olib borilgan. 1870 yilning martidan "Туркестанские ведомости" (Toshkent) gazetasida ob-havo, meteokuzatuv ma'lumotlari nashr qilina boshlagan. 1873 yildan Toshkent astronomiya va fizika observatoriyasi faoliyat yurita boshladi. 1876 yilning sentyabirida Toshkent - observatoriya meteostansiyasi ochildi va hozirgi kungacha ishlab kelyapti.
 </p>
 <img style="transform: translate(600px,-200px);" src="./yang.svg" alt="">
-<button type="button" class="btn btn-primary">Barchlar</button>
-                    </div>
+<button style="transform: translate(-570px,-100px); width: 200px;height: 50px;" type="button" class="btn btn-primary">Barcha xizmati</button>
+                   <h1>Tadbirlar</h1>  
+                   <img style="box-shadow: 50px 50px 20px gray;" src="./tadbir.svg" alt="">
+                   <button style="width: 200px;height: 50px; transform: translate(-880px,400px);" class="btn btn-primary">Bizning tadbirlar</button>
+                     <br>
+                   <h1 style="transform: translateY(150px);">Hududlar boyicha</h1>
+                   <img style="transform: translate(20px,200px);" src="./hh.svg" alt="">
+                   <img style="transform: translate(50px,200px);" src="./hh.svg" alt="">
+                   <img style="transform: translate(20px,220px);" src="./hh.svg" alt="">
+                   <img style="transform: translate(50px,220px);" src="./hh.svg" alt="">
+                     </div>
                 </div>
             </div>
         </div>
@@ -106,4 +115,14 @@ import '../assets/youtube.css'
         </div>
     </div>
 </div>
+
+<footer>
+    <ul style="color: white;margin: 20px !important;">
+        <li>Yaratuvchi:Aqilbek Ubaydullayev</li>
+        <li>Telegram: https://t.me/FED_222</li>
+        <li>Malumot uchun:https://t.me/FED_222</li>
+        <li>Telefon:+99897-314-77-44</li>
+        <li>Ustozi:Ziyodulla Ustoz</li>
+    </ul>
+</footer>
 </template>
