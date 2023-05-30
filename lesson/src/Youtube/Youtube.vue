@@ -32,97 +32,39 @@ import '../assets/youtube.css'
 </script> -->
 <!------------------------------------------------------------------------------------------------------------------------------->
 <template>
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div style="width: 1423px; height: 800px;  background: rgb(0,198,255);background: linear-gradient(343deg, rgba(0,198,255,1) 40%, rgba(0,151,255,1) 66%);">
-                <div class="container"><div class="row"><div class="col-12"><img style="transform: translateX(200px);" src="./logo.svg" alt="">
-                <p style="width: 200px;color: white; transform: translate(300px,-70px);">O‘ZBEKISTON RESPUBLIKASIGIDROMETEOROLOGIYA XIZMATI MARKAZI</p>
-        <img style="transform: translate(700px,-110px);" src="./web-site.svg" alt="">
-        <button style="transform: translate(900px,-110px);" type="button" class="btn btn-primary">+998(71) 123-45-67</button>
-        <img style="transform:translate(1000px,-110px);" src="./aa.svg" alt="">
-        </div>
-    </div>
-</div>
-
-<div class="container"><div class="row"><div class="col-12">
-<p id="malum">
-<a href="#">Bosh Sahifa</a>
-<a href="#">Tashkilot haqida</a>
-<a href="#">Foliyati</a>
-<a href="#">Tuzulmasi</a>
-<a href="#">Malumotlar</a>
-<a href="#">Xizmatlar</a>
-<a href="#">Hujjatlar</a>
-<a href="#">Axborat xizmati</a>
-<a href="#">Bog'lanish</a>
-</p>
-         </div>
-    </div>
-</div>  
-
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <img style="border-radius: 15px; transform: translate(20px,0px);" src="https://www.gazeta.uz/media/img/2018/06/z4Qecu15282641867645_b.jpg?r=1532589070" alt="">
-        <img style="transform: translate(50px,20px);" src="./ob-havo.svg" alt="">
-        </div>
-    </div>
-</div>
-    </div>
-    
-    <div class="col-12">
+    <div class="yellow">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div style="background-color: whitesmoke; width: 1423px;height: 1000px;">
-                  <h1>Ob-havo</h1>
-                  <img src="./ob-havo.svg" alt="">
-                  <img src="./ob-havo.svg" alt="">
-                  <img src="./ob-havo.svg" alt="">
-                  <img src="./ob-havo.svg" alt="">
-                  <img src="./ob-havo.svg" alt="">
-                  <img src="./ob-havo.svg" alt="">
-                    </div>
-                </div>
-            </div>
+        <div class="tabs_a">
+            <span><a href="#">Uzb</a></span>
+            <span><a href="#">Rus</a></span>
+            <span><a href="#">Eng</a></span>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div style="background-color: whitesmoke; width: 1423px;height: 2000px;">
-                    <h1>Yangiliklar</h1>
-                    <p style="width: 500px;border:2px dotted black;">Toshkentda meteorologik kuzatuvlar 1867 yilning dekabridan boshlab olib borilgan. 1870 yilning martidan "Туркестанские ведомости" (Toshkent) gazetasida ob-havo, meteokuzatuv ma'lumotlari nashr qilina boshlagan. 1873 yildan Toshkent astronomiya va fizika observatoriyasi faoliyat yurita boshladi. 1876 yilning sentyabirida Toshkent - observatoriya meteostansiyasi ochildi va hozirgi kungacha ishlab kelyapti.
-</p>
-<img style="transform: translate(600px,-200px);" src="./yang.svg" alt="">
-<button style="transform: translate(-570px,-100px); width: 200px;height: 50px;" type="button" class="btn btn-primary">Barcha xizmati</button>
-                   <h1>Tadbirlar</h1>  
-                   <img style="box-shadow: 50px 50px 20px gray;" src="./tadbir.svg" alt="">
-                   <button style="width: 200px;height: 50px; transform: translate(-880px,400px);" class="btn btn-primary">Bizning tadbirlar</button>
-                     <br>
-                   <h1 style="transform: translateY(150px);">Hududlar boyicha</h1>
-                   <img style="transform: translate(20px,200px);" src="./hh.svg" alt="">
-                   <img style="transform: translate(50px,200px);" src="./hh.svg" alt="">
-                   <img style="transform: translate(20px,220px);" src="./hh.svg" alt="">
-                   <img style="transform: translate(50px,220px);" src="./hh.svg" alt="">
-                     </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-        </div>
-    </div>
+</div>
+</div>
+<div class="cn_bg">
+    <h1>Грузовые перевозки</h1>
+</div>
+<div class="cn_c">
+    <h1>грузоперевозки по европе</h1>
+    <img style="width: 500px;height: 500px; transform: translate(500px);" src="./car_b.svg" alt="">
+    <h4>Страны Евросоюза, а также Украина,Белоруссия со всеми документами.</h4>
+    <button style="width: 200px;height: 50px;transform: translate(-950px,420px);color: white; background-color: #C8A35F;border: none;" type="button" class="btn btn-warning">Подробное</button>
 </div>
 
-<footer>
-    <ul style="color: white;margin: 20px !important;">
-        <li>Yaratuvchi:Aqilbek Ubaydullayev</li>
-        <li>Telegram: https://t.me/FED_222</li>
-        <li>Malumot uchun:https://t.me/FED_222</li>
-        <li>Telefon:+99897-314-77-44</li>
-        <li>Ustozi:Ziyodulla Ustoz</li>
-    </ul>
-</footer>
+<div class="cccp">
+    <h1>Услуги</h1>
+    <img src="./url.svg" alt="">
+</div>
+
+<div class="ccp">
+    <h1>О компании</h1>
+    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+<div id="a"></div>
+<div id="b"><h2>48 офисов</h2></div>
+<div id="c"><h2>361 <br> грузовиков</h2></div>
+<div id="d"><h2>1500 сотрудников</h2></div>
+<div id="e"></div>
+</div>
+<div class="aab"></div>
+<footer></footer>
 </template>
